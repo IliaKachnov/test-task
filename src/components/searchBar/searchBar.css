@@ -1,0 +1,44 @@
+.searchBar__container {
+  max-width: 631px;
+  margin-left: 78px;
+  position: relative;
+}
+.searchBar {
+  height: 52px;
+  width: 100%;
+  background: #5A5C66;
+  padding-left: 26px;
+  margin-top: 23px;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.searchBar::placeholder {
+  color: #B2B7BF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.687%;
+}
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 93%;
+}
+
+@media (max-width: 1250px) {
+  .searchBar__container  {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 660px) {
+  .searchBar__container {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 440px) {
+  .searchIcon {
+    left: 90%;
+  }
+}

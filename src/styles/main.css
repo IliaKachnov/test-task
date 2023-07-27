@@ -1,0 +1,9 @@
+@import url('../styles/reset.css');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.App {
+  max-width: 120rem;
+  margin: 0 auto;
+}
